@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flap</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        body{
+            background-color: black;
+        }
+        canvas{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <canvas id="canvas" width="400" height="680"></canvas>
+    <img id="bg" src="assets/background.png">
+    <img id="intromessage" src="assets/message.png">
+    <img id="ground" src="assets/ground.png">
+    <img id="bird" src="assets/bird1.png">
+    <img id="bird2" src="assets/bird2.png">
+    <img id="pipe1" src="assets/pipe.png">
+    <img id="pipe2" src="assets/inverted-pipe.png">
+    <img id="gameover" src="assets/gameover.png">
+
+    <img id="0" src="assets/0.png">
+    <img id="1" src="assets/1.png">
+    <img id="2" src="assets/2.png">
+    <img id="3" src="assets/3.png">
+    <img id="4" src="assets/4.png">
+    <img id="5" src="assets/5.png">
+    <img id="6" src="assets/6.png">
+    <img id="7" src="assets/7.png">
+    <img id="8" src="assets/8.png">
+    <img id="9" src="assets/9.png">
+
+    <audio id="die-sound" src="assets/audio/die-sound.wav"></audio>
+    <audio id="score-sound" src="assets/audio/score-sound.wav"></audio>
+    <audio id="swoosh-sound" src="assets/audio/swoosh-sound.wav"></audio>
+    <audio id="flap-sound" src="assets/audio/wings-sound.wav"></audio>
+    <audio id="hit-sound" src="assets/audio/hit-sound.wav"></audio>
+</body>
+<script src="script.js"></script>
+</html>
